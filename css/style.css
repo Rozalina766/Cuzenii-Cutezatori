@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Open Sans';
+}
+
+header {
+    background: linear-gradient(45deg, #5695e2, #0352b1);
+    padding: 15px 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 3;
+}
+
+main {
+    min-height: 100dvh;
+    padding-top: 70px;
+}
+
+footer {
+    color: white;
+    background: linear-gradient(45deg, #90ccdf, #3c689d);
+    padding: 15px;
+    text-align: center;
+}
+
+
+#logo-link {
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
+    margin-right: 25px;
+    text-transform: uppercase;
+
+    font-family: Raleway;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav,
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.container {
+    padding-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    line-height: 150%;
+}
+
+a {
+    color: rgb(5, 5, 104);
+    text-decoration: none;
+}
+
+.video-div {
+    height: 75dvh;
+    min-height: 400px;
+    background-color: #10748ec3;
+}
+
+.section-div {
+    height: 40dvh;
+    min-height: 400px;
+    background-color: #0d86be3f;
+}
+
+#index-video {
+    width: 100%;
+    height: 60dvh;
+    min-height: inherit;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+#inscrieri-section {
+    background: url("../images/materiale.png");
+    background: size-cover;
+    min-height: 100%;
+    overflow: visible;
+}
+
+.index-info {
+    height: inherit;
+    min-height: inherit;
+    color: hsl(203, 27%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.index-info h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: opx;
+}
+
+.link {
+    border: 1px solid rgb(52, 84, 134);
+    display: block;
+    width: 330px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+
+}
+
+.link img {
+    height: 80px;
+    margin-top: 20px;
+}
+
+ .linkuri {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+
+}
+
+.facebook-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fb-page,
+iframe {
+    width: 100%;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    width: 100%;
+    background-color: #053c89;
+    margin: 0;
+    padding: 5px 0;
+    color: hsl(353, 17%, 91%);
+    height: auto;
+}
+
+.btn-inscriere {
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: rgba(27, 207, 207, 0.74);
+    padding: 10px;
+    border-radius: 5px;
+
+    max-width: fit-content;
+    transition: all 0.5;
+
+}
+
+.btn-inscriere:hover {
+    color: #f5f1f1df;
+    background-color: rgb(44, 111, 169);
+    border-color: aquamarine;
+}
+
+.inscriere-info {
+    display: flex;
+    gap: 15px;
+}
+
+.card-inscriere {
+    width: 100%;
+    padding: 0px 20px 20px 20px;
+    border-radius: 5px;
+    box-shadow: #335E94;
+}
+
+section>h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.carduri {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: #00000040 0px 25px 50px -12px #00000040 0px 25px 50px -12px;
+}
+
+.card:hover {
+    box-shadow: #3487d540 0px 0px 7px 0px;
+}
+
+.card:hover>img {
+    transform: scale(1.10);
+}
+
+.card>h3 {
+    text-align: center;
+}
+
+.card>img {
+    height: 90px;
+    margin: 10px auto;
+    display: block;
+    transform: 0.3s all;
+}
+
+#galerie {
+    background: size-cover;
+    min-height: 100%;
+    overflow: visible;
+}
+
+.container-galerie {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-galerie img {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    border: 3px solid rgb(200, 200, 200);
+    object-fit: cover;
+}
+
+.container-galerie img:hover {
+    border: 3px solid rgba(119, 76, 205, 0.7);
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 14px rgba(47, 39, 116, 0.7));
+}
+
+.profesor img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.imput-form {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid #335E94;
+    border-color: #335E94 !important;
+
+}
+
+.select-form {
+    font-family: "Open Sans";
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#transmite {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    background-color: #335E94;
+    color: white;
+    cursor: pointer;
+}
+
+.profesor {
+    width: 100%;
+    /* overflow: auto; */
+}
+
+[class^="col-"] {
+    float: left;
+    padding: 0px 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+#parteneri {
+    background: url("../images/333.png")no-repeat center/cover;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    overflow: visible;
+    position: relative;
+}
+
+#parteneri::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(193, 170, 170, 0.3);
+    z-index: 1;
+}
+
+.parteneri {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.parteneri a {
+    width: 200px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    text-align: center;
+    border-radius: 10px;
+    color: #2e045bad;
+    transition: 0.3s all;
+
+    position: relative;
+    z-index: 10;
+}
+
+.parteneri img {
+    min-height: 400px;
+    padding: 50px 0;
+}
+
+.parteneri a:hover {
+    transform: scale(1.05);
+    box-shadow: #1f6bc95b 0px 7px 29px 0px;
+
+}
+
+@media (max-width:968px) {
+    html {
+        font-size: 15px;
+    }
+
+    .carduri,
+    .inscrieri-info {
+        flex-wrap: wrap;
+    }
+
+    .carduri .card .card-inscriere .profesor {
+        width: auto;
+    }
+
+
+    .profesor img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+    
+    .col-70, .col-30 {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .inscriere-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-inscriere {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
